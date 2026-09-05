@@ -1,0 +1,16 @@
+name-template: 'v$NEXT_PATCH_VERSION — $BRANCH'
+tag-template: 'v$NEXT_PATCH_VERSION'
+categories:
+  - title: '🚀 Features'
+    labels:
+      - 'feature'
+  - title: '🐛 Fixes'
+    labels:
+      - 'fix'
+  - title: '🧪 Tests'
+    labels:
+      - 'test'
+change-template: '- $TITLE (#$NUMBER) @$AUTHOR'
+template: |
+  ## Changes
+  $CHANGES
